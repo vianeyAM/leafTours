@@ -1,30 +1,179 @@
+/*GLOBAL*/
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  background: #fff;
+}
+
 /*NAV BAR*/
-.navbar-brand {
-  padding: 0 1em;
-  margin: 2em;
+
+nav {
+  background: #004635;
+  color: #fff;
+  height: 90px;
+  width: 100%;
 }
 
-.navbar-nav {
-  align-items: center;
+nav:after {
+  content: "";
+  clear: both;
+  display: table;
 }
 
-.navbar-nav .nav-link {
-  color: rgb(175, 13, 13);
-  font-size: 1.25em;
-  padding: 0.5em 2em;
-  font-family: "Poppins", sans-serif;
-  font-weight: 300;
+nav .logo {
+  float: left;
+  padding: 15px 50px;
 }
 
-@media screen and (min-width: 990px) {
-  .navbar-brand {
-    margin: 2em 3em;
+nav ul {
+  float: right;
+  margin-right: 40px;
+  list-style: none;
+  position: relative;
+}
+
+nav ul li {
+  float: left;
+  display: inline-block;
+  margin: 0 5px;
+  background: #004635;
+}
+
+nav ul li a {
+  color: white;
+  line-height: 80px;
+  font-size: 18px;
+  padding: 8px 15px;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: #bfd834;
+  border-radius: 5px;
+  box-shadow: 0 0 5px#d1ec39;
+}
+
+nav ul ul {
+  position: absolute;
+  top: 90px;
+  border-top: 3px solid #d1ec39;
+  opacity: 0;
+  visibility: hidden;
+  transition: top 0.3s;
+}
+
+nav ul li:hover > ul {
+  opacity: 1;
+  visibility: visible;
+}
+
+nav ul ul li {
+  position: relative;
+  margin: 0px;
+  width: 150px;
+  float: none;
+  display: list-item;
+  border-bottom: 1.5px solid #06513e;
+}
+
+nav ul ul li a {
+  line-height: 50px;
+}
+nav ul ul li a:hover {
+  box-shadow: none;
+}
+
+.show,
+.checkbtn,
+input {
+  display: none;
+}
+
+@media screen and (max-widht: 960px) {
+  nav ul {
+    margin-right: 0px;
+    float: left;
+  }
+
+  nav .logo {
+    padding-left: 30px;
+    width: 100%;
+  }
+
+  .show + a,
+  ul {
+    display: none;
+  }
+
+  nav ul li,
+  nav ul ul li {
+    display: block;
+    width: 100%;
+  }
+
+  nav ul li a:hover {
+    box-shadow: none;
+  }
+
+  .show {
+    display: block;
+    color: #fff;
+    font-size: 18px;
+    padding: 0 20px;
+    line-height: 70px;
+  }
+  .show:hover {
+    color: #d1ec39;
+  }
+  .checkbtn {
+    display: block;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    right: 40px;
+    line-height: 70px;
+    cursor: pointer;
+    font-size: 25px;
+  }
+
+  nav ul ul {
+    top: 70px;
+    border-top: 0px;
+    float: none;
+    position: static;
+    display: none;
+    opacity: 1;
+    visibility: visible;
+  }
+
+  nav ul ul a {
+    padding-left: 40px;
+  }
+
+  [id^="btn"]:checked + ul {
+    display: block;
+  }
+
+  nav ul ul li {
+    border-bottom: 0px;
+  }
+
+  i.cancel:before {
+    content: "\f00d";
   }
 }
 
 /*FOOTER*/
 footer {
-  background-color: rgb(151, 15, 15);
+  background-color: #bfd834;
   color: #fff;
   font-family: "Poppins", sans-serif;
 }
