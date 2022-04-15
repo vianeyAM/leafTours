@@ -1,21 +1,30 @@
-body {
-  font-family: "Montserrat", sans-serif;
-  font-size: 14px;
-}
 /*NAV BAR*/
 .navbar-brand {
-  padding: 0px;
-  margin: 10px;
+  padding: 0 1em;
+  margin: 2em;
 }
 
 .navbar-nav {
   align-items: center;
 }
 
-.nav-link {
-  color: #fff;
+.navbar-nav .nav-link {
+  color: rgb(175, 13, 13);
   font-size: 1.25em;
-  padding: 0 4em;
+  padding: 0.5em 2em;
   font-family: "Poppins", sans-serif;
   font-weight: 300;
+}
+
+@media screen and (min-width: 990px) {
+  .navbar-brand {
+    margin: 2em 3em;
+  }
+}
+
+/*FOOTER*/
+footer {
+  background-color: rgb(151, 15, 15);
+  color: #fff;
+  font-family: "Poppins", sans-serif;
 }
