@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Leaf Tours</title>
+    <!--Favicon-->
+    <link rel="icon" type="image/x-icon" href="./img/favicon.ico" />
+    <!--StyleSheet-->
+    <link rel="stylesheet" href="./css/styles.css" />
+
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <!--Fontawesome-->
+    <script
+      src="https://kit.fontawesome.com/73f4446eec.js"
+      crossorigin="anonymous"
+    ></script>
+    <!--JQuery CDN-->
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+      integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <!--Navigation Bar-->
+    <nav>
+      <div class="logo">
+        <a href="#" class="linklogo">
+          <img src="./img/logoLTnav.png" alt="leafTours" class="logo" />
+        </a>
+      </div>
+      <input type="checkbox" id="btn" />
+      <label for="check" class="checkbtn">
+        <i class="fas fa-bars"></i>
+      </label>
+      <ul>
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./Pages/aboutUs.html">About Us</a></li>
+        <li>
+          <label for="btn1" class="show">Attractions +</label>
+          <a href="#"
+            >Attractions <i class="fa-solid fa-circle-chevron-down"></i
+          ></a>
+          <input type="checkbox" id="btn1" />
+          <ul>
+            <li><a href="./Pages/cork.html"></a>Cork</li>
+            <li><a href="./Pages/dublin.html"></a>Dublin</li>
+            <li><a href="./Pages/clare.html"></a>Clare</li>
+          </ul>
+        </li>
+        <li><a href="./Pages/contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <section>
+      <div id="slide">
+        <img src="" alt="" />
+        <img src="" alt="" />
+        <img src="" alt="" />
+      </div>
+    </section>
+
+    <!--footer-->
+
+    <!--<footer class="bg-dark text-center text-lg-start">
+      <div class="text-light text-center p-3">
+        Open Source Code:
+        <a class="text-light" href="https://github.com/vianeyAM/leafTours"
+          >Github</a
+        >
+      </div>
+    </footer>-->
+    <!--Jquery Scripts-->
+    <script>
+      $(".checkbtn").click(function () {
+        $("i").toggleClass("cancel");
+      });
+    </script>
+  </body>
+</html>
