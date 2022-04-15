@@ -61,51 +61,134 @@
       </ul>
     </nav>
     <!--Start Form-->
-     <div class="container">
-            <div class = "heading"> Booking Details </div>
-                    
-                            
-                        <form name="booking" method="post" onsubmit="return checkinfo()" >
-                                    
-                            
-                            <div class = "booking-details"> 
-                        
-                    
-                            <div class = "deatails-box"> 
-                            
-                            <span class= "details">First Name: </span>
-                            <input type="text" name="FirstName" id ="fname" >
-                            
-                            </div>
-                        
-                            <div class = "deatails-box"> 
-                            
-                            <span class= "details">Surname : </span>
-                            <input type="text" name="Surname" id ="Surname">
-                            
-                            </div>
-                        
-                            <div class = "deatails-box"> 
-                            <span class= "details">Contact: </span>
-                            <input type="tel" name="Contact" id ="Contact">
-                            
-                            </div>
-                            
-                            <div class = "deatails-box"> 
-                            <span class= "details">Email: </span>
-                            <input type="text" name="First Name" id ="Email" >
-                            
-                            </div>
-                            
-                        
-                            <div class = "deatails-box"> 
-                            <span class= "details"> Destination: </span>
-                            
-                                <select id="select" onchange="calculateTotal();">
+      	
+	<div class="container">
+	
+
+    <div class = "heading"> Booking Details </div>
+        
+            
+          <form name="booking" method="post" onsubmit="return checkinfo()" >
                 
-                </div>
-            </div> 
-       
+            
+            <div class = "booking-details"> 
+          
+        
+            <div class = "deatails-box"> 
+            
+            <span class= "details">First Name: </span>
+            <input type="text" name="FirstName" id ="fname" >
+            
+            </div>
+          
+            <div class = "deatails-box"> 
+            
+            <span class= "details">Surname : </span>
+            <input type="text" name="Surname" id ="Surname">
+            
+            </div>
+          
+            <div class = "deatails-box"> 
+            <span class= "details">Contact: </span>
+            <input type="tel" name="Contact" id ="Contact">
+            
+            </div>
+            
+            <div class = "deatails-box"> 
+            <span class= "details">Email: </span>
+            <input type="text" name="First Name" id ="Email" >
+            
+            </div>
+            
+          
+            <div class = "deatails-box"> 
+            <span class= "details"> Destination: </span>
+            
+              <select id="select" onchange="calculateTotal();">
+      
+              <option value ="0.00">Select Destination</option>
+              <option value ="15.00">Dublin</option>
+              <option value ="20.00">Cork</option>
+              <option value ="30.00">Galway</option>
+      
+              </select>
+            
+            </div>
+            
+            
+            <div class = "pax"> 
+            
+            <span class= "details">Tickets:</span>
+            
+            <input type="number" id="qty" min="0" max="20" onchange= "calculateTotal();">
+  
+            </div>
+    
+            
+                
+            <div class = "deatails-box"> 
+            
+            <span class= "details">Travel Date: </span>
+            <input type ="Date"  id="DatePick" required>
+  
+            </div>
+            
+            
+            
+            
+              <div class = "deatails-box"> 
+            
+            <span class= "details">Time </span>
+            <input type ="Time"  id="DatePick" required>
+  
+            </div>
+            
+            
+        
+            
+            <div class = "deatails-box"> 
+            
+            <span class= "details">Return Date: </span>
+            <input type ="Date"  id="DatePick1" required>
+  
+            </div>
+            
+            
+          
+            
+          
+              
+            <div class = "deatails-box"> 
+            
+            <span class= "details">Trip Cost  </span>
+            <input type ="number" placeholder= "0.00" id="price" readonly>
+  
+            </div>
+            
+                
+            <div class = "deatails-box"> 
+            
+            <span class= "details">Accepted Payment:  </span>
+            
+            <img src ="payment.png" alt="This is an image" id="payment">
+        
+  
+            </div>
+            
+            
+          
+                
+            <div class ="button">
+          
+            <input type="Submit" value="Confirm Booking"> 
+            <input type="Reset" value="Cancel"> 
+            
+            </div>
+            
+          </form>
+      
+      </div>
+      
     <!--footer>-->
     <!--Jquery Scripts-->
     <script>
