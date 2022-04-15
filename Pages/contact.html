@@ -67,10 +67,141 @@
                 </div>
             </div>
 
-            
+         </nav>   
         </nav>
 
+        <body>
 
+        <div class="container">
+	
+
+            <div class = "heading"> Booking Details </div>
+                    
+                            
+                        <form name="booking" method="post" onsubmit="return checkinfo()" >
+                                    
+                            
+                            <div class = "booking-details"> 
+                        
+                    
+                            <div class = "deatails-box"> 
+                            
+                            <span class= "details">First Name: </span>
+                            <input type="text" name="FirstName" id ="fname" >
+                            
+                            </div>
+                        
+                            <div class = "deatails-box"> 
+                            
+                            <span class= "details">Surname : </span>
+                            <input type="text" name="Surname" id ="Surname">
+                            
+                            </div>
+                        
+                            <div class = "deatails-box"> 
+                            <span class= "details">Contact: </span>
+                            <input type="tel" name="Contact" id ="Contact">
+                            
+                            </div>
+                            
+                            <div class = "deatails-box"> 
+                            <span class= "details">Email: </span>
+                            <input type="text" name="First Name" id ="Email" >
+                            
+                            </div>
+                            
+                        
+                            <div class = "deatails-box"> 
+                            <span class= "details"> Destination: </span>
+                            
+                                <select id="select" onchange="calculateTotal();">
+                
+                                <option value ="0.00">Select Destination</option>
+                                <option value ="7.00">Dublin</option>
+                                <option value ="9.00">Cork</option>
+                                <option value ="17.50">Galway</option>
+                
+                                </select>
+                            
+                            </div>
+                            
+                            
+                            <div class = "pax"> 
+                            
+                            <span class= "details">Adults:</span>
+                            
+                            <input type="number" id="qty" min="0" max="20" value="0" onchange= >
+        
+                            </div>
+                            
+                                    
+                            <div class = "pax"> 
+                            
+                            <span class= "details">Children:</span>
+                            
+                            <input type="number" id="qty1" min="0" max="20" value="0" onchange=>
+        
+                            </div>
+                            
+                        
+                            
+                                    
+                            <div class = "deatails-box"> 
+                            
+                            <span class= "details">Travel Date: </span>
+                            <input type ="Date"  id="DatePick" value = "Select">
+        
+                            </div>
+                            
+                            
+                            
+                            
+                                <div class = "deatails-box"> 
+                            
+                            <span class= "details">Time </span>
+                            <input type ="Time"  id="DatePick">
+        
+                            </div>
+                            
+                            
+                    
+                            
+                            <div class = "deatails-box"> 
+                            
+                            <span class= "details">Return Date: </span>
+                            <input type ="Date"  id="DatePick1" value = "Select">
+        
+                            </div>
+                            
+                            
+                        
+                            
+                        
+                                
+                            <div class = "deatails-box"> 
+                            
+                            <span class= "details">Trip Cost  </span>
+                            <input type ="number" placeholder= "0.00" id="price" readonly>
+        
+                            </div>
+                            
+                        
+                                    
+                            <div class ="button">
+                        
+                            <input type="Submit" value="Confirm Booking"> 
+                            <input type="Reset" value="Cancel"> 
+                            
+                            </div>
+                            
+                        </form>
+                        
+                        
+                   
+                    
+                
+                </div>  
+            </body>   
 
 <!--Footer-->
 <!--<footer class="footer">
