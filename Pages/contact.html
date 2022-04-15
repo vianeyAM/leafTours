@@ -71,10 +71,30 @@
         </nav>
 
         <body>
+            <!DOCTYPE html> 
 
-        <div class="container">
-	
-
+            <html lang="en">
+        
+            <head>
+            
+                <title> Booking Form </title>
+        
+                <meta charset="UTF-8"> 
+                <meta name="viewport" content="width=device-width,  initial-scale=1.0">
+                
+                <!--[if lt IE 9]>
+                <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+                <![endif]-->
+                <link rel="stylesheet" href="external.css">
+                <script type ="text/javascript" src="validation.js"></script>
+                
+            </head>
+            
+            <body>
+            
+            <div class="container">
+            
+        
             <div class = "heading"> Booking Details </div>
                     
                             
@@ -117,9 +137,9 @@
                                 <select id="select" onchange="calculateTotal();">
                 
                                 <option value ="0.00">Select Destination</option>
-                                <option value ="7.00">Dublin</option>
-                                <option value ="9.00">Cork</option>
-                                <option value ="17.50">Galway</option>
+                                <option value ="15.00">Dublin</option>
+                                <option value ="20.00">Cork</option>
+                                <option value ="30.00">Galway</option>
                 
                                 </select>
                             
@@ -128,55 +148,38 @@
                             
                             <div class = "pax"> 
                             
-                            <span class= "details">Adults:</span>
+                            <span class= "details">Tickets:</span>
                             
-                            <input type="number" id="qty" min="0" max="20" value="0" onchange= >
+                            <input type="number" id="qty" min="0" max="20" onchange= "calculateTotal();">
         
                             </div>
-                            
-                                    
-                            <div class = "pax"> 
-                            
-                            <span class= "details">Children:</span>
-                            
-                            <input type="number" id="qty1" min="0" max="20" value="0" onchange=>
-        
-                            </div>
-                            
-                        
+            
                             
                                     
                             <div class = "deatails-box"> 
                             
                             <span class= "details">Travel Date: </span>
-                            <input type ="Date"  id="DatePick" value = "Select">
+                            <input type ="Date"  id="DatePick" required>
         
                             </div>
                             
-                            
-                            
-                            
-                                <div class = "deatails-box"> 
+                        
+                            <div class = "deatails-box"> 
                             
                             <span class= "details">Time </span>
-                            <input type ="Time"  id="DatePick">
+                            <input type ="Time"  id="DatePick" required>
         
                             </div>
                             
-                            
-                    
                             
                             <div class = "deatails-box"> 
                             
                             <span class= "details">Return Date: </span>
-                            <input type ="Date"  id="DatePick1" value = "Select">
+                            <input type ="Date"  id="DatePick1" required>
         
                             </div>
                             
-                            
-                        
-                            
-                        
+                 
                                 
                             <div class = "deatails-box"> 
                             
@@ -185,7 +188,15 @@
         
                             </div>
                             
-                        
+                                    
+                            <div class = "deatails-box"> 
+                            
+                            <span class= "details">Accepted Payment:  </span>
+                            
+                            <img src ="payment.png" alt="This is an image" id="payment">
+                    
+        
+                            </div>
                                     
                             <div class ="button">
                         
@@ -195,12 +206,16 @@
                             </div>
                             
                         </form>
-                        
-                        
-                   
-                    
+                </div>
                 
-                </div>  
+                </body> 
+        
+            </html>
+        
+        
+        
+             
+       
             </body>   
 
 <!--Footer-->
