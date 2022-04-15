@@ -204,6 +204,7 @@ footer {
   border-radius:40px; 
   background:#00aeac;
   border:solid black 2px;
+  margin: 10px:
   }
   
   .container .heading{ 
@@ -212,6 +213,7 @@ footer {
     position:relative;
     text-align:center;
     padding:2px;
+  
     
     
   }
