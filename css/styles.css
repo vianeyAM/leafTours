@@ -91,11 +91,11 @@ nav ul ul li a:hover {
   box-shadow: none;
 }
 
-.show,
+/*.show,
 .checkbtn,
-input {
+/*input {
   display: none;
-}
+}*/
 
 @media screen and (max-widht: 960px) {
   nav ul {
