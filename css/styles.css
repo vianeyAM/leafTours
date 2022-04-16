@@ -321,3 +321,21 @@ p {
   font-family: "Montserrat", sans-serif;
   padding: 25px;
 }
+
+/*IMG About Us*/
+.imgAbtUs {
+  border-radius: 25px;
+  width: 50%;
+  height: 50%;
+  float: left;
+}
+
+/*About Us*/
+.abtUs {
+  padding: 20px;
+  width: 100%;
+}
+.txtAbtUs {
+  padding: 20px;
+  float: left;
+}
