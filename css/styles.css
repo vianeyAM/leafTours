@@ -190,7 +190,7 @@ footer div a {
 
 /*Josh*/
 
-.container {
+.container1 {
   max-width: 700px;
   width: 100%;
   padding: 25px 35px;
@@ -200,7 +200,7 @@ footer div a {
   margin: 10px;
 }
 
-.container .heading {
+.container1 .heading {
   font-size: 25px;
   font-weight: 500;
   position: relative;
@@ -208,14 +208,14 @@ footer div a {
   padding: 2px;
 }
 
-.container form .booking-details {
+.container1 form .booking-details {
   margin-top: 25px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 
-.container .booking-details .deatails-box {
+.container1 .booking-details .deatails-box {
   width: 300px;
   margin-bottom: 15px;
 }
