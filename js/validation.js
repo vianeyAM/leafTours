@@ -29,7 +29,6 @@ function checkinfo(){
 		return false;
 		}
 }
-	
 
 function calculateTotal(){
 
