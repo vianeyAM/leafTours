@@ -12,6 +12,9 @@ body {
   font-size: 16px;
   background: #fff;
 }
+.selector-for-some-widget {
+  box-sizing: content-box;
+}
 
 /*NAV BAR*/
 
@@ -338,4 +341,21 @@ p {
 .txtAbtUs {
   padding: 20px;
   float: left;
+}
+
+/*Cork Page*/
+
+.img-cork {
+  width: 100%;
+  border-radius: 15%;
+  margin: 10px;
+}
+
+.maps {
+  border-radius: 15%;
+  padding: 25px;
+}
+
+.txt-cork {
+  padding: 25px;
 }
