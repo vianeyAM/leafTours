@@ -359,3 +359,20 @@ p {
 .txt-cork {
   padding: 25px;
 }
+
+.icon-3 {
+  font-size: 3em;
+  color: #72cc51;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 25px;
+}
+
+h3 {
+  justify-content: center;
+  text-align: center;
+  margin: 25px;
+  padding: 25px 30px;
+  display: flex;
+}
