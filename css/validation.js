@@ -5,16 +5,16 @@ function checkinfo(){
 			return false;
 			}
 			
-		else if(document.getElementById('Surname').value == " "){
+		else if(document.getElementById('Surname').value == ""){
 			alert('Please fill the field!');
 			return false;
 			}
 			
-		else if (document.getElementById('Contact').value == (" ")){
+		else if (document.getElementById('Contact').value == ("")){
 			alert('Please enter Contact Details!');
 			return false;
 			}
-		else if (document.getElementById('Email').value == " "){
+		else if (document.getElementById('Email').value == ""){
 			alert('Please enter valid email address!');
 			return false;
 			}
