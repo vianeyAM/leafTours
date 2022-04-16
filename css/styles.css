@@ -56,7 +56,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color: #bfd834;
+  color: #72cc51;
   border-radius: 5px;
   box-shadow: 0 0 5px #d1ec39;
 }
@@ -64,7 +64,7 @@ nav ul li a:hover {
 nav ul ul {
   position: absolute;
   top: 90px;
-  border-top: 3px solid #d1ec39;
+  border-top: 3px solid #72cc51;
   opacity: 0;
   visibility: hidden;
   transition: top 0.3s;
@@ -173,122 +173,169 @@ nav ul ul li a:hover {
 
 /*FOOTER*/
 footer {
-  background-color: #bfd834;
+  background-color: #004635;
   color: #fff;
   font-family: "Poppins", sans-serif;
+  text-align: center;
+  padding: 15px 25px;
+}
+
+footer div a {
+  text-decoration: none;
+}
+
+.f-link {
+  color: #72cc51;
 }
 
 /*Josh*/
-  
-  .container{ 
-  
-  max-width:60%; 
-  width:100%;
-  padding:25px 35px; 
-  border-radius:40px; 
-  background:#00aeac;
-  border:solid black 2px;
-  margin: 0 auto;
-  }
-  
-  .container .heading{ 
-    font-size: 25px;
-    font-weight: 500; 
-    position:relative;
-    text-align:center;
-    padding:2px;
-  
-    
-    
-  }
-      
-  .container form .booking-details{
-    margin-top: 25px;
-    display:flex;
-    flex-wrap:wrap;
-    justify-content:space-between;
-  }
-  
-  .container .booking-details .deatails-box{
-    width: 300px;
-    margin-bottom: 15px;
-    }
-    
-  .booking-details .deatails-box .details{
-    display: block; 
-    font-weight:500;
-    margin-bottom:5px;
-    
-  }
-  
-  .booking-details .deatails-box input{ 
-   position:relative; 
-   width:90%;
-   border: 2px solid gray; 
-   border-radius:10px;
-   transition: ease-out 0.5s;
-   height:30px;
-  }
-  
-  
-  .booking-details .pax input{ 
-  
-   position:relative; 
-   width:70%;
-   border: 2px solid gray; 
-   border-radius:10px;
-   transition: ease-out 0.5s;
-   height:30px;
-   padding:5px;
-   
-   
-   
-  }
-  
-  .booking-details .pax .details{
-    display: block; 
-    font-weight:500;
-    margin-bottom:5px;
-    margin-right:80px;
-  }
-  
-  
-  .button{
-    
-    display:block; 
-    margin-top: 10px;
-    
-  }
-  
-  
-  
-  input[type=Submit]{
-  
-  position:relative;
-    padding: 10px;
-    font-size: 12px;
-    cursor: pointer;
-    text-align: center;
-    text-decoration:none;
-    background-color:green;
-    color:white;
-    border:none;
-    border-radius: 20px;
-    top:10px;
-  }
-  
-  
-  input[type=reset]{
-  
-  position:relative;
-    padding: 10px;
-    font-size: 12px;
-    cursor: pointer;
-    text-decoration:none;
-    background-color:green;
-    color:white;
-    border:none;
-    border-radius: 20px;
-    top:10px;
-  }
-  
+
+.container {
+  max-width: 700px;
+  width: 100%;
+  padding: 25px 35px;
+  border-radius: 40px;
+  background: #00aeac;
+  border: solid black 2px;
+  margin: 10px;
+}
+
+.container .heading {
+  font-size: 25px;
+  font-weight: 500;
+  position: relative;
+  text-align: center;
+  padding: 2px;
+}
+
+.container form .booking-details {
+  margin-top: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.container .booking-details .deatails-box {
+  width: 300px;
+  margin-bottom: 15px;
+}
+
+.booking-details .deatails-box .details {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.booking-details .deatails-box input {
+  position: relative;
+  width: 90%;
+  border: 2px solid gray;
+  border-radius: 10px;
+  transition: ease-out 0.5s;
+  height: 30px;
+}
+
+.booking-details .pax input {
+  position: relative;
+  width: 70%;
+  border: 2px solid gray;
+  border-radius: 10px;
+  transition: ease-out 0.5s;
+  height: 30px;
+  padding: 5px;
+}
+
+.booking-details .pax .details {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 5px;
+  margin-right: 80px;
+}
+
+.button {
+  display: block;
+  margin-top: 10px;
+}
+
+input[type="Submit"] {
+  position: relative;
+  padding: 10px;
+  font-size: 12px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  top: 10px;
+}
+
+input[type="reset"] {
+  position: relative;
+  padding: 10px;
+  font-size: 12px;
+  cursor: pointer;
+  text-decoration: none;
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  top: 10px;
+}
+
+/*imghome*/
+.imghome {
+  width: 100%;
+  overflow: hidden;
+}
+
+/*HOMEpage*/
+
+h1 {
+  font-family: "Poppins", sans-serif;
+  justify-content: center;
+  text-align: center;
+  margin: 25px;
+  padding: 25px 30px;
+}
+
+h2 {
+  font-family: "Poppins", sans-serif;
+  justify-content: center;
+  text-align: center;
+  border-bottom: 2px solid #004635;
+  padding: 10px 25px;
+  margin: 10px 25px;
+}
+
+.icon {
+  font-size: 3em;
+  color: #72cc51;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 25px;
+}
+p {
+  font-family: "Montserrat", sans-serif;
+  padding: 25px;
+}
+
+/*IMG About Us*/
+.imgAbtUs {
+  border-radius: 25px;
+  width: 50%;
+  height: 50%;
+  float: left;
+}
+
+/*About Us*/
+.abtUs {
+  padding: 20px;
+  width: 100%;
+}
+.txtAbtUs {
+  padding: 20px;
+  float: left;
+}

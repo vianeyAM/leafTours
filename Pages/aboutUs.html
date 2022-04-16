@@ -1,99 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Leaf Tours</title>
     <!--Favicon-->
-    <link rel="icon" type="image/x-icon" href="./img/favicon.ico">
-
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-
-
+    <link rel="icon" type="image/x-icon" href="../img/favicon.ico" />
     <!--StyleSheet-->
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="../css/styles.css" />
 
     <!--Fonts-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
-        rel="stylesheet">
-
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <!--Bootstrap-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
     <!--Fontawesome-->
+    <script
+      src="https://kit.fontawesome.com/73f4446eec.js"
+      crossorigin="anonymous"
+    ></script>
+    <!--JQuery CDN-->
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+  </head>
 
-</head>
+  <body>
+    <!--Navigation Bar-->
+    <nav>
+      <div class="logo">
+        <a href="#" class="linklogo">
+          <img src="../img/logoLTnav.png" alt="leafTours" class="logo" />
+        </a>
+      </div>
+      <input type="checkbox" id="btn" />
+      <label for="check" class="checkbtn">
+        <i class="fas fa-bars"></i>
+      </label>
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="#">About Us</a></li>
+        <li>
+          <label for="btn1" class="show">Attractions +</label>
+          <a href="#"
+            >Attractions <i class="fa-solid fa-circle-chevron-down"></i
+          ></a>
+          <input type="checkbox" id="btn1" />
+          <ul>
+            <li><a href="../Pages/cork.html"></a>Cork</li>
+            <li><a href="../Pages/dublin.html"></a>Dublin</li>
+            <li><a href="../Pages/clare.html"></a>Clare</li>
+          </ul>
+        </li>
+        <li><a href="../Pages/contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <!--Content-->
+    <h2>About Us</h2>
 
-<body>
-    <!--Navigarion Bar-->
-    <header>
-        <nav class="nav navbar-expand-lg navbar-dark bg-dark">
-            <div class="container-fluid"> 
-                <a class="navbar-brand d-lg-none" href="#">
-                    <img src="./img/logoLTnav.png" alt="Leaf Tours">
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav mx-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">About Us</a>
-                        </li>
-                        <a class="navbar-brand d-none d-lg-block" href="#">
-                            <img id="view-lg" src="./img/logoLTnav.png" alt="Leaf Tours">
-                        </a>
-                        <li class="nav-item dropdown nav">
-                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Attractions</a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="#">Cork</a></li>
-                                <li><a class="dropdown-item" href="#">Dublin</a></li>
-                                <li><a class="dropdown-item" href="#">Clare</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
-                        </li>
-                    </ul>
-                
-                </div>
-            </div>
-
-            
-        </nav>
-
-
-
-<!--Footer-->
-<!--<footer class="footer">
-    <div class="container">
-    <div class="row footer">
-        <div class="col-sm-8">lorem ipsum</div>
-        <div class="col-sm-4">lorem ipsum</div>
+    <div class="abtUs">
+      <div>
+        <img class="imgAbtUs" src="../img/aboutusimg.jpg" alt="bridge" />
+      </div>
+      <div class="txtAbtUs">
+        <p>
+          First founded in 2022, Leaf tours has been moulded by the very
+          definition of the believe in the four-leaf clover, representing love,
+          faith, hope and luck to bring the best of Ireland to the people of the
+          world! With great responsibility for delivering the best tourism
+          experience one could offer of Irish history to the curious mind. Our
+          tours are well organized to ensure that our members feel comfortable
+          and prepared before the tour for a stress-free travel experience. Our
+          services are offered to bring every individual an experience to
+          remember, may it be the first-time visiting Ireland or to take a break
+          from the hustle. Leaf tours ensures the convenience of safe travel
+          with our team of approachable tour guides. All our tour guides are
+          well equipped with knowledge and the history of Ireland. Leaf tours is
+          in direct collaboration with other tourism members of the different
+          counties within the region, making sure that all our tour members are
+          well attended. Our team believes that all our tour members are given
+          support throughout their journey with additional services upon request
+          and if required.
+        </p>
+      </div>
     </div>
-</div>
-</footer>-->
 
-<footer class="bg-dark text-center text-lg-start">
-  <div class="text-light text-center p-3">
-    Open Source Code:
-    <a class="text-light" href="https://github.com/vianeyAM/leafTours">Github</a>
-  </div>
-  <!-- Copyright -->
-</footer>
+    <iframe
+      width="100%"
+      height="500px"
+      src="https://www.youtube.com/embed/xUlGMBRms9M"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+    ></iframe>
 
-<!--BootStrap JS-->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-    crossorigin="anonymous"></script>
+    <!--footer-->
 
-</body>
+    <footer>
+      <div>
+        <div></div>
+        <div></div>
+      </div>
+      <div class="f-link">
+        Open Source Code:
+        <a class="text-light" href="https://github.com/vianeyAM/leafTours"
+          >Github <i class="fa-brands fa-github"></i
+        ></a>
+      </div>
+    </footer>
+    <!--Jquery Scripts-->
+    <script>
+      $(".checkbtn").click(function () {
+        $("i").toggleClass("cancel");
+      });
+    </script>
+  </body>
 </html>
