@@ -121,6 +121,10 @@ input[type="reset"] {
   top: 10px;
 }
 
+i{ 
+text-align: center;
+}
+
 /*imghome*/
 .imghome {
   width: 100%;

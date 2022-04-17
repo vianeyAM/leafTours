@@ -34,10 +34,7 @@
       src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
       integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
       crossorigin="anonymous"
-    ></script>
-    <!--JS-->
-    <script type="text/javascript" src="../js/validation.js"></script>
-   
+    ></script>  
   </head>
 
   <body>
@@ -111,130 +108,12 @@
     </header>
     <!--Start Form-->
       	
-	<div class="container1">
-	
+	<div class="container">
 
-    <div class = "heading"> Booking Details </div>
+        <h2> Booking Recieved! We will be in contact with you shortly</h2>
+        <h3><a href="../index.html"> Click Here to return to Homepage!</a></h3>
         
-            
-          <form name="booking" method="post" action="submission.html" onsubmit="return checkinfo()" >
-                
-            
-            <div class = "booking-details"> 
-          
-        
-            <div class = "deatails-box"> 
-            
-            <span class= "details">First Name: </span>
-            <input type="text" name="FirstName" id ="fname" >
-            
-            </div>
-          
-            <div class = "deatails-box"> 
-            
-            <span class= "details">Surname : </span>
-            <input type="text" name="Surname" id ="Surname">
-            
-            </div>
-          
-            <div class = "deatails-box"> 
-            <span class= "details">Contact: </span>
-            <input type="tel" name="Contact" id ="Contact">
-            
-            </div>
-            
-            <div class = "deatails-box"> 
-            <span class= "details">Email: </span>
-            <input type="text" name="First Name" id ="Email" >
-            
-            </div>
-            
-          
-            <div class = "deatails-box"> 
-            <span class= "details"> Destination: </span>
-            
-              <select id="select" onchange="calculateTotal();">
-      
-              <option value ="0.00">Select Destination</option>
-              <option value ="15.00">Dublin</option>
-              <option value ="20.00">Cork</option>
-              <option value ="30.00">Galway</option>
-      
-              </select>
-            
-            </div>
-            
-            
-            <div class = "pax"> 
-            
-            <span class= "details">Tickets:</span>
-            
-            <input type="number" id="qty" min="0" max="20" onchange= "calculateTotal();">
-  
-            </div>
-    
-            
-                
-            <div class = "deatails-box"> 
-            
-            <span class= "details">Travel Date: </span>
-            <input type ="Date"  id="DatePick" required>
-  
-            </div>
-            
-            
-            
-            
-              <div class = "deatails-box"> 
-            
-            <span class= "details">Time </span>
-            <input type ="Time"  id="DatePick" required>
-  
-            </div>
-            
-            
-        
-            
-            <div class = "deatails-box"> 
-            
-            <span class= "details"> Return Date: </span>
-            <input type ="Date"  id="DatePick1" required>
-  
-            </div>
-            
-            <div class = "deatails-box"> 
-            
-            <span class= "details">Trip Cost  </span>
-            <input type ="number" placeholder= "0.00" id="price" readonly>
-  
-            </div>
-            
-                
-            <div class = "deatails-box"> 
-            
-            <span class= "details">Accepted Payment:  </span>
-          
-            <i class="fa-brands fa-cc-visa"></i>
-
-            <i class="fa-brands fa-cc-mastercard"></i>
-
-            <i class="fa-brands fa-cc-apple-pay"></i>
-
-
-       
-            </div>
-          
-            <div class ="button">
-          
-            <input type="Submit" value="Confirm Booking"> 
-            <input type="Reset" value="Cancel"> 
-            
-            </div>
-            
-          </form>
-      
-      </div>
-     </div>
+        </div>
       
     <!--footer>-->
        <div class="container">
