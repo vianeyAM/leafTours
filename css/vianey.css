@@ -1,4 +1,5 @@
 .container1 {
+  max-width:700px; 
   font-family: "poppins", sans-serif;
   background-color: hsla(154, 100%, 32%, 0.525);
   font-size: 0.8em;
@@ -10,13 +11,14 @@
   max-width: 70%;
   z-index: 1;
   text-align: center;
+
 }
 
 .heading {
   color: #004635;
 }
 
-div .heading {
+.container1 .heading {
   font-size: 2em;
   position: absolute;
   text-align: center;
@@ -26,11 +28,49 @@ div .heading {
   align-items: center;
 }
 
+.container1 form .booking-details{
+  margin-top: 25px;
+  display:flex;
+  flex-wrap:wrap;
+  margin-right:20px;
+}
+
+.container1 .booking-details .deatails-box{
+  width: 300px;
+  margin-bottom: 15px;
+  }
+
+  
+  .booking-details .deatails-box .details{
+    display: block; 
+    font-weight:800;
+    margin-bottom:5px;
+    
+}
+
+.booking-details .deatails-box input {
+  position: relative;
+  width: 90%;
+  border: 2px solid gray;
+  border-radius: 10px;
+  transition: ease-out 0.5s;
+  height: 30px;
+}
+
+
+.booking-details .pax .details{
+  display: block; 
+  font-weight:500;
+  margin-bottom:5px;
+  margin-right:245px;
+}
+
+
 form {
   padding: 1rem;
 }
 
-div.heading {
+.container1 .heading {
   padding: 0 2rem;
 }
 
@@ -66,12 +106,13 @@ input[type="number"],
 input[type="tel"],
 input[type="date"],
 input[type="time"],
+
 select {
   background-color: #01987589;
   color: rgb(231, 245, 202);
   border-radius: 10px;
   border: none;
-  border-bottom: 0.5px solid#019875;
+  border-bottom: 0.5px solid #019875;
 }
 
 .fa-cc-visa,
