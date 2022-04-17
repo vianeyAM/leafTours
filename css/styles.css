@@ -275,6 +275,7 @@ h2 {
   align-items: center;
   padding: 15px 25px;
 }
+
 p {
   font-family: "Montserrat", sans-serif;
   padding: 25px;
@@ -334,50 +335,44 @@ h3 {
 
 /* Dublin and Clare page*/
 
-	#buttonD {
-			font-size:20px;
-			padding:1%;
-			margin-left:45%;
-			
-			border-radius: 20px;
-			}
-			
-	.containertx1{
-			
-			float:left;
-			background:#72cc51;
-			width:58%;  
-			height:420px;
-			margin-left:2%;		
-			
-			}
-	.containerpic1{
-			
-			float:right;
-			background:#00aeac;
-			width :38%; 
-			height:420px;
-			padding:2%;
-			margin-right:2%;			
-			
-			}
-	.containerpic{
-			float:left;
-			background:#00aeac;
-			width :38%; 
-			height:420px;
-			padding:2%;
-			margin-left:2%;
-			
-			}
-	.containertx{
-			float:right;
-			background:#72cc51;
-			width:58%; 
-			height:420px;
-			margin-right:2%;
-			
-			}
-	#clarepic{
-			margin-left:2%;
-			}
+#buttonD {
+  font-size: 20px;
+  padding: 1%;
+  margin-left: 45%;
+
+  border-radius: 20px;
+}
+
+.containertx1 {
+  float: left;
+  background: #72cc51;
+  width: 58%;
+  height: 420px;
+  margin-left: 2%;
+}
+.containerpic1 {
+  float: right;
+  background: #00aeac;
+  width: 38%;
+  height: 420px;
+  padding: 2%;
+  margin-right: 2%;
+}
+.containerpic {
+  float: left;
+  background: #00aeac;
+  width: 38%;
+  height: 420px;
+  padding: 2%;
+  margin-left: 2%;
+}
+.containertx {
+  float: right;
+  background: #72cc51;
+  width: 58%;
+  height: 420px;
+  margin-right: 2%;
+}
+#clarepic {
+  margin-left: 2%;
+}
