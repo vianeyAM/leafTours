@@ -2,10 +2,11 @@
 
 
 body {
-    background-attachment:url("GanesanBG.jpg");
-	background-attachment:fixed;
+    background-image:url("../img/GanesanBG.jpg");
+	background-attachment:scroll;
 	background-blend-mode: lighten;
 	object-fit: fill;
+	background-size: 100%;
 
 }
 
@@ -13,7 +14,6 @@ body {
   font-family: 'Poppins', sans-serif;
   font-weight: 600;
   width: 60%;
-  display: flex;
   color:white;
   flex-direction: column;
   justify-content: center;
@@ -22,29 +22,29 @@ body {
   padding: 2%;
   border-radius: 20px;
   background-color: #00a35c;
-  border: solid black 2px;
+  opacity: 0.9;
+  border: solid black 5px;
   margin-left:18%;
+
 
 }
 
 .heading {
 	
-    padding: 5px;
+    padding: 10px;
 	font-size:200%;
 	text-align: center;
     display: inline-block;
 	border: 3px solid #fff;
-	padding: 10px;
 	border-radius: 10px;
 	background-color:#00aeac;
-
 }
 
 .booking-details {
   margin-top: 55px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: list-item;
+  justify-content: space-between;
 }
 
 .container1 .booking-details .deatails-box {
@@ -77,17 +77,8 @@ body {
   padding: 5px;
 }
 
-.booking-details .pax .details {
-  display: block;
-  font-weight: 500;
-  margin-bottom: 5px;
-  margin-right: 80px;
-}
 
-.button {
-  display: block;
-  margin-top: 10px;
-}
+
 
 input[type="Submit"] {
   position: relative;
