@@ -17,6 +17,10 @@ body {
   box-sizing: content-box;
 }
 
+a {
+  text-decoration: none;
+}
+
 /*FOOTER*/
 .text-Foo {
   color: #004635;
