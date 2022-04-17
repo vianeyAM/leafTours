@@ -29,120 +29,185 @@
       src="https://kit.fontawesome.com/73f4446eec.js"
       crossorigin="anonymous"
     ></script>
-    <!--JQuery CDN-->
-    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    
   </head>
 
   <body>
     <!--Navigation Bar-->
-    <nav>
-      <div class="logo">
-        <a href="#" class="linklogo">
-          <img src="../img/logoLTnav.png" alt="leafTours" class="logo" />
-        </a>
-      </div>
-      <input type="checkbox" id="btn" />
-      <label for="check" class="checkbtn">
-        <i class="fas fa-bars"></i>
-      </label>
-      <ul>
-        <li><a href="../index.html">Home</a></li>
-        <li><a href="../Pages/aboutUs.html">About Us</a></li>
-        <li>
-          <label for="btn1" class="show">Attractions +</label>
-          <a href="#"
-            >Attractions <i class="fa-solid fa-circle-chevron-down"></i
-          ></a>
-          <input type="checkbox" id="btn1" />
-          <ul>
-            <li><a href="../Pages/cork.html"></a>Cork</li>
-            <li><a href="../Pages/dublin.html"></a>Dublin</li>
-            <li><a href="#"></a>Clare</li>
-          </ul>
-        </li>
-        <li><a href="../Pages/contact.html">Contact</a></li>
-      </ul>
-    </nav>
+     <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html"
+            ><img src="../img/logoLTnav.png" alt="logo"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="../index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../Pages/aboutUs.html">About Us</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdownMenuLink"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Attractions
+                </a>
+                <ul
+                  class="dropdown-menu"
+                  aria-labelledby="navbarDropdownMenuLink"
+                >
+                  <li>
+                    <a class="dropdown-item" href="../Pages/clare.html">Clare</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="../Pages/cork.html">Cork</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="../Pages/dublin.html"
+                      >Dublin</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../Pages/contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
 	  
-    <!--Style sheet for Clare page-->
-    	<link rel="stylesheet" href="../css/styles.css"/>
     <!--Main Content-->
-    <h2>CLARE</h2> 
+    <h1>Co.Clare</h1> 
 	
-	<h2> Cliffs Of Moher </h2>
-	<div class="container-xl">
-    <div class="row">
-      <div class="col">
-		<img src="../img/clare.jpg" class="img-cork" alt="dublin" />
-		</div>	 
+	  <h2> Cliffs Of Moher </h2>
+	  <div class="container-claretxt">
+      <div class="row">
+        <div class="col-lg-6 col-md-12">
+		      <img src="../img/clare.jpg" class="img-cork" alt="Cliffsmoher"/>
+		    </div>	 
   
-    <div class="col">
-	 <div class ="txt-cork">
-	<p> Ever wondered about the beautiful breath-taking sceneries and pictures you have 
-	seen on websites and wallpapers? Well think again! Leaf tours offers an amazing road 
-	trip adventure to county Clare to visit the Cliffs of Moher, located at the edge of 
-	the Burren region the sea cliffs are a distance of about 14km and are as high as 214 meters.  
-	The cliffs take their name from an old promontory fort called Mothar or Moher. This site is famous and receives almost 
-	1 million visitors a year. The Cliffs of Moher Visitor Experience won an award in the 
-	Interpret Britain & Ireland Awards 2007 awarded by the Association of Heritage Interpretation (AHI). 
-	Be wowed with panoramic views from dramatic cliff edges. 
-	Walk along some of Ireland's most exhilarating coastal scenery. Grab a fireside seat at a traditional music session in the picturesque village of Doolin. Unmissable.
-The Cliffs of Moher have been long admired for their scenic beauty and is ancient folklore making it an 
-icon and a place for a visit at least once in your life. Leaf tours handle private bus and car hires to visit 
-this beautiful scenery with a personal tour guide that will journey with you along the cliffs to the best spots. 
-Slip on your hiking shoes and be prepared for an adventure with Leaf tours!
-  </p>
+        <div class="col-lg-6 col-md-12">
+	           <p class ="txt-cork">  Ever wondered about the beautiful breath-taking sceneries and pictures you have 
+                	seen on websites and wallpapers? Well think again! Leaf tours offers an amazing road 
+                	trip adventure to county Clare to visit the Cliffs of Moher, located at the edge of 
+	                the Burren region the sea cliffs are a distance of about 14km and are as high as 214 meters.  
+                	The cliffs take their name from an old promontory fort called Mothar or Moher. This site is famous and receives almost 
+                	1 million visitors a year. The Cliffs of Moher Visitor Experience won an award in the 
+                 	Interpret Britain & Ireland Awards 2007 awarded by the Association of Heritage Interpretation (AHI). 
+                	Be wowed with panoramic views from dramatic cliff edges. 
+                	Walk along some of Ireland's most exhilarating coastal scenery. Grab a fireside seat at a traditional music session in the picturesque village of Doolin. Unmissable.
+                  The Cliffs of Moher have been long admired for their scenic beauty and is ancient folklore making it an 
+                  icon and a place for a visit at least once in your life. Leaf tours handle private bus and car hires to visit 
+                  this beautiful scenery with a personal tour guide that will journey with you along the cliffs to the best spots. 
+                  Slip on your hiking shoes and be prepared for an adventure with Leaf tours!
+              </p>
   
-	<a href="../Pages/contact.html">
-	<div id="buttonD"> Book Now </a> 
-	</div>
-	</div>
-</div>
+	            <button class="btn btn-success">
+                <a class="text-light text-decoration-none" href="../Pages/contact.html"> Book Now  <i class="fa-regular fa-calendar-check"></i></a>
+              </button> 
+	        </div>
+	      </div>
+    </div>
 	
 	
 	<!--Maps,Hotels,Restaurants-->
-         <div class="row">
-        <div class="col">
-          <iframe class="maps"src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d38443.44548199315!2d-9.430882!3d52.971535!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x485b01af0bb881f3%3A0x283a469048b8c0e6!2sCliffs%20of%20Moher!5e0!3m2!1sen!2sus!4v1650123821216!5m2!1sen!2sus" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-			<a href="https://123movies-to.org"></a></br>
-			
-        </div>
-      </div>
-	  <iframe width="100%" height="415" src="https://www.youtube.com/embed/YZkw7GyfY3Q?start=38" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <div class="row maps">
+    <div class="col">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9610.861164042435!2d-9.43963715818982!3d52.97153592843342!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x485b01af0bb881f3%3A0x283a469048b8c0e6!2sCliffs%20of%20Moher!5e0!3m2!1sen!2sie!4v1650212630693!5m2!1sen!2sie" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
 	
-	<div class="col">
-          <span class="icon-3">
-            <i class="fa-solid fa-utensils"></i>
-          </span>
-            <a href ="https://www.opentable.ie/lolz-view-all/H4sIAAAAAAAAAFXNzQrCMBBG0XcZt0lJJj9tsisYQZCqURcqIhEiFEILFXQhvrsDrlwN3DPwvQHBAwpELjSXdi-tR-mFAAbqTyhoCrL2SvzcgEcGlqLByiktrTaMu0qpujGGHhqiTYi7ddeulqcQr9tDiEcCRzBrn6kv6VbyYpzm_TDkqRtfhJJ2zxe6NHdP5ZE_X5gfbNmlAAAA?originid=b3f1432a-3816-4642-badb-df5037bccbb3"> <h3>Restaurants</h3>
-            </div>
-        <div class="col">
-          <span class="icon-3">
-            <i class="fa-solid fa-bed"></i>
-          </span>
-          <a href= "https://www.booking.com/region/ie/county-clare.html"><h3>Hotels</h3>
-       </div>
+       <!--Content List-->
+      <div class="col list-group">
+  <a href="https://www.tripadvisor.ie/Restaurants-g186595-c8-County_Clare.html" class="list-group-item list-group-item-action d-flex gap-3 py-3" aria-current="true">
+    <span class="icon-list-group"><i class="fa-solid fa-mug-saucer fa-3x" width="32" height="32" class="rounded-circle flex-shrink-0"></i></span>
+    <div class="d-flex gap-2 w-100 justify-content-between">
+      <div>
+        <h6 class="mb-0">Cafeterias in Clare</h6>
+        <p class="mb-0 opacity-75">If you are a coffee lover check the best cafés in Clare.</p>
+      </div>
+    </div>
+  </a>
+  <a href="https://www.clare.ie/dine-list/" class="list-group-item list-group-item-action d-flex gap-3 py-3" aria-current="true">
+    <span class="icon-list-group"><i class="fa-solid fa-utensils fa-3x" width="32" height="32" class="rounded-circle flex-shrink-0"></i></span>
+    <div class="d-flex gap-2 w-100 justify-content-between">
+      <div>
+        <h6 class="mb-0">Restaurants in Clare</h6>
+        <p class="mb-0 opacity-75">Check the best Restaurants and Pubs in Clare</p>
+      </div>
+    </div>
+  </a>
+  <a href="" class="list-group-item list-group-item-action d-flex gap-3 py-3" aria-current="true">
+    <span class="icon-list-group"><i class="fa-solid fa-bed fa-3x" width="32" height="32" class="rounded-circle flex-shrink-0"></i></span>
+    <div class="d-flex gap-2 w-100 justify-content-between">
+      <div>
+        <h6 class="mb-0">Hotels</h6>
+        <p class="mb-0 opacity-75">You need a place to stay check the hotels.</p>
+      </div>
+    </div>
+  </a>
+</div>
 	
      	
     <!--footer-->
 
-    <footer>
-      <div>
-        <div></div>
-        <div></div>
-      </div>
-      <div class="f-link">
-        Open Source Code:
-        <a class="text-light" href="https://github.com/vianeyAM/leafTours"
-          >Github <i class="fa-brands fa-github"></i>
-		  </a>
-      </div>
-    </footer>
-    <!--Jquery Scripts-->
-    <script>
-      $(".checkbtn").click(function () {
-        $("i").toggleClass("cancel");
-      });
-    </script>
+    <div class="container">
+      <footer
+        class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
+      >
+        <div class="col-md-4 d-flex align-items-center">
+          <span class="text-Foo"
+            >Open source on:
+            <a  href="https://github.com/vianeyAM/leafTours">
+              Github <i class="fa-brands fa-github"></i> </a
+          ></span>
+        </div>
+
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+          <li class="ms-3">
+            <a class="text-Foo" href="https://www.youtube.com/"
+              ><i class="fa-brands fa-youtube "></i
+            ></a>
+          </li>
+          <li class="ms-3">
+            <a class="text-Foo" href="https://www.instagram.com"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+          </li>
+          <li class="ms-3">
+            <a class="text-Foo" href="https://www.facebook.com/"
+              ><i class="fa-brands fa-facebook"></i
+            ></a>
+          </li>
+        </ul>
+      </footer>
+    </div>
+    
+     <!--JS Bootstrap-->
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
   </body>
 </html>
