@@ -1,14 +1,14 @@
 
-.container{ 
-    max-width:65%; 
-    width:40%;
+.container1{ 
+    max-width:700px; 
+    width:100%;
     padding:15px 35px;  
     background:linear-gradient(0.25turn,#3FB752,#FFFFFF,#E08716);
     border:solid black 5px;
     margin:0 auto;
     }
     
-    .container .heading{ 
+    .container1 .heading{ 
         font-size: 55px;
         font-weight: 800; 
         position:relative;
@@ -18,14 +18,14 @@
         
     }
             
-    .container form .booking-details{
+    .container1 form .booking-details{
         margin-top: 25px;
         display:flex;
         flex-wrap:wrap;
         margin-right:20px;
     }
     
-    .container .booking-details .deatails-box{
+    .container1 .booking-details .deatails-box{
         width: 250px;
         margin-bottom: 15px;
         }
@@ -78,7 +78,7 @@
       cursor: pointer;
       text-align: center;
       text-decoration:none;
-      background-color:#bfd834;
+      background-color:#c3830c;
       color:Black;
       border:none;
       border-radius: 20px;
