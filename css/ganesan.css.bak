@@ -78,8 +78,6 @@ body {
 }
 
 
-
-
 input[type="Submit"] {
   position: relative;
   padding: 10px;
@@ -87,7 +85,7 @@ input[type="Submit"] {
   cursor: pointer;
   text-align: center;
   text-decoration: none;
-  background-color: green;
+  background-color: #00aeac;
   color: white;
   border: none;
   border-radius: 20px;
@@ -100,7 +98,7 @@ input[type="reset"] {
   font-size: 12px;
   cursor: pointer;
   text-decoration: none;
-  background-color: green;
+  background-color: #00aeac;
   color: white;
   border: none;
   border-radius: 20px;
