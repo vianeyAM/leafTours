@@ -1,105 +1,47 @@
 /*Ganesan.css*/
 
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;900&display=swap');
+body {
+    background-image:url("../img/GanesanBG.jpg");
+	background-attachment:scroll;
+	background-blend-mode: lighten;
+	object-fit: fill;
+	background-size: 100%;
 
-*,body {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 400;
-    -webkit-font-smoothing: antialiased;
-    text-rendering: optimizeLegibility;
-    -moz-osx-font-smoothing: grayscale;
 }
-
- *,html {
-    height: 100%;
-    background-color: #152733;
-    overflow: hidden;
-}
-
 
 .container1 {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
-      min-height: 800px;
-}
-
-.heading  {
-    position: relative;
-    text-align: center;
-	font-weight: 400;
-	font-size: 45px;
-	font-family: 'Poppins', sans-serif;
-    display: flex;
-    -webkit-justify-content: center;
-    justify-content: center;
-    -webkit-align-items: center;
-    align-items: center;
-    padding: 10px;
-	
-	
-}
-
-.container1 form .booking-details {
-    border: 3px solid #fff;
-    padding: 40px;
-    display: inline-block;
-    width: 100%;
-    min-width: 540px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    border-radius: 10px;
-    text-align: left;
-    -webkit-transition: all 0.4s ease;
-    transition: all 0.4s ease;
-}
-
-.container1 .booking-details .deatails-box {
-    color: #fff;
-    text-align: left;
-    font-size: 28px;
-    font-weight: 600;
-    margin-bottom: 5px;
-}
-
-.booking-details .deatails-box .details {
-    margin-bottom: 30px;
-}
-
-.booking-details .pax input {
-    color: #fff;
-    text-align: left;
-    font-size: 17px;
-    font-weight: 300;
-    line-height: 20px;
-    margin-bottom: 30px;
-}
-
-
-/*
-.container1 {
-  max-width: 700px;
-  width: 100%;
-  padding: 25px 35px;
-  border-radius: 40px;
-  background: #00aeac;
-  border: solid black 2px;
-  margin: 10px;
-}
-
-.container1 .heading {
-  font-size: 25px;
-  font-weight: 500;
-  position: relative;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  width: 60%;
+  color:white;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-align: center;
-  padding: 2px;
+  padding: 2%;
+  border-radius: 20px;
+  background-color: #00a35c;
+  opacity: 0.9;
+  border: solid black 5px;
+  margin-left:18%;
+
+
 }
 
-.container1 form .booking-details {
-  margin-top: 25px;
+.heading {
+	
+    padding: 10px;
+	font-size:200%;
+	text-align: center;
+    display: inline-block;
+	border: 3px solid #fff;
+	border-radius: 10px;
+	background-color:#00aeac;
+}
+
+.booking-details {
+  margin-top: 55px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -135,17 +77,8 @@
   padding: 5px;
 }
 
-.booking-details .pax .details {
-  display: block;
-  font-weight: 500;
-  margin-bottom: 5px;
-  margin-right: 80px;
-}
 
-.button {
-  display: block;
-  margin-top: 10px;
-}
+
 
 input[type="Submit"] {
   position: relative;
@@ -173,4 +106,4 @@ input[type="reset"] {
   border-radius: 20px;
   top: 10px;
 }
-*/
+
