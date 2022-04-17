@@ -1,0 +1,107 @@
+
+.container{ 
+    max-width:65%; 
+    width:40%;
+    padding:15px 35px;  
+    background:linear-gradient(0.25turn,#3FB752,#FFFFFF,#E08716);
+    border:solid black 5px;
+    margin:0 auto;
+    }
+    
+    .container .heading{ 
+        font-size: 55px;
+        font-weight: 800; 
+        position:relative;
+        text-align:center;
+        padding:2px;
+        
+        
+    }
+            
+    .container form .booking-details{
+        margin-top: 25px;
+        display:flex;
+        flex-wrap:wrap;
+        margin-right:20px;
+    }
+    
+    .container .booking-details .deatails-box{
+        width: 250px;
+        margin-bottom: 15px;
+        }
+        
+    .booking-details .deatails-box .details{
+        display: block; 
+        font-weight:800;
+        margin-bottom:5px;
+        
+    }
+    
+    .booking-details .deatails-box input{ 
+     position:relative; 
+     width:80%;
+     border: 2px solid green; 
+     border-radius:20px;
+     transition: ease-out 0.15s;
+     height:20px;
+    }
+    
+    
+    .booking-details .pax input{ 
+    
+     position:relative; 
+     width:20%;
+     border: 2px solid green; 
+     border-radius:10px;
+     transition: ease-out 0.5s;
+     height:30px;
+     padding:5px;
+     
+     
+     
+    }
+    
+    .booking-details .pax .details{
+        display: block; 
+        font-weight:500;
+        margin-bottom:5px;
+        margin-right:245px;
+    }
+    
+    
+    
+    input[type=Submit]{
+    
+    position:relative;
+      padding: 20px;
+      font-size: 12px;
+      cursor: pointer;
+      text-align: center;
+      text-decoration:none;
+      background-color:#bfd834;
+      color:Black;
+      border:none;
+      border-radius: 20px;
+      top:10px;
+      margin-top:40px;
+      border:1px solid black;
+      margin-bottom:5px;
+    
+    }
+    
+    
+    input[type=reset]{
+    
+    position:relative;
+      padding: 20px;
+      font-size: 12px;
+      cursor: pointer;
+      text-decoration:none;
+      background-color:#72cc51;
+      color:black;
+      border:none;
+      border-radius: 20px;
+      top:10px;
+      border:1px solid black;
+    
+    }
