@@ -67,16 +67,16 @@
     <!--Style sheet for Clare page-->
     	<link rel="stylesheet" href="../css/styles.css"/>
     <!--Main Content-->
-    <h2>CLARE</h2>
-    <div class="containerCla-1">
-	</div>
-      
-        <section>
+    <h2>CLARE</h2> 
 	
 	<h2> Cliffs Of Moher </h2>
 	<div class="containerpic">
-		<img id="clarepic" src="../img/clare.jpg" alt="dublin" width="520" height="360"/>
+    <div class="row">
+      <div class="col">
+		<img src="../img/clare.jpg" class="img-cork" alt="dublin" />
 		</div>	 
+  
+    <div class="col">
 	 <div class ="containertx">
 	<p> Ever wondered about the beautiful breath-taking sceneries and pictures you have 
 	seen on websites and wallpapers? Well think again! Leaf tours offers an amazing road 
@@ -88,16 +88,16 @@
 	Be wowed with panoramic views from dramatic cliff edges. 
 	Walk along some of Ireland's most exhilarating coastal scenery. Grab a fireside seat at a traditional music session in the picturesque village of Doolin. Unmissable.
 The Cliffs of Moher have been long admired for their scenic beauty and is ancient folklore making it an 
-icon and a place for a visit at least once in your life. Leaf tours handle’s private bus and car hires to visit 
+icon and a place for a visit at least once in your life. Leaf tours handle private bus and car hires to visit 
 this beautiful scenery with a personal tour guide that will journey with you along the cliffs to the best spots. 
 Slip on your hiking shoes and be prepared for an adventure with Leaf tours!
   </p>
   
 	<a href="../Pages/contact.html">
-	<div>
-	<button type="button" id="buttonD"> Book Now </input></a> 
+	<div id="buttonD"> Book Now </a> 
 	</div>
 	</div>
+</div>
 	
 	
 	<!--Maps,Hotels,Restaurants-->
@@ -108,7 +108,7 @@ Slip on your hiking shoes and be prepared for an adventure with Leaf tours!
 			
         </div>
       </div>
-	  <iframe id="clarevideo" width="100%" height="415" src="https://www.youtube.com/embed/YZkw7GyfY3Q?start=38" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	  <iframe width="100%" height="415" src="https://www.youtube.com/embed/YZkw7GyfY3Q?start=38" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 	
 	<div class="col">
           <span class="icon-3">
