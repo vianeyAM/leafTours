@@ -30,6 +30,7 @@
     ></script>
     <!--JS-->
     <script type="text/javascript" src="../js/validation.js"></script>
+   
   </head>
 
   <body>
@@ -70,7 +71,7 @@
     <div class = "heading"> Booking Details </div>
         
             
-          <form name="booking" method="post" onsubmit="checkinfo()" >
+          <form name="booking" method="post" onsubmit="return checkinfo()" >
                 
             
             <div class = "booking-details"> 
@@ -106,7 +107,7 @@
             <div class = "deatails-box"> 
             <span class= "details"> Destination: </span>
             
-              <select id="select " onchange="calculateTotal();">
+              <select id="select" onchange="calculateTotal();">
       
               <option value ="0.00">Select Destination</option>
               <option value ="15.00">Dublin</option>
@@ -150,7 +151,7 @@
             
             <div class = "deatails-box"> 
             
-            <span class= "details">Return Date: </span>
+            <span class= "details"> Return Date: </span>
             <input type ="Date"  id="DatePick1" required>
   
             </div>
@@ -176,10 +177,7 @@
 
        
             </div>
-            
-            
           
-                
             <div class ="button">
           
             <input type="Submit" value="Confirm Booking"> 
@@ -199,4 +197,5 @@
       });
     </script>
   </body>
+
 </html>

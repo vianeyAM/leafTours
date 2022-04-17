@@ -27,9 +27,8 @@ function checkinfo(){
 	else if (document.getElementById('qty').value == ""){
 		alert('Please select number of travellers!');
 		return false;
-		}
+	}
 }
-	
 
 function calculateTotal(){
 
@@ -44,3 +43,4 @@ function calculateTotal(){
 	if (!isNaN(total)){document.getElementById('price').value = parseFloat(total).toFixed(2);
 		}
 			}
+
