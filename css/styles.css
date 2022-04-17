@@ -34,7 +34,8 @@ body {
   border-radius: 40px;
   background: #00aeac;
   border: solid black 2px;
-  margin: 10px;
+  margin: 0 auto;
+  z-index: 1;
 }
 
 .container1 .heading {
