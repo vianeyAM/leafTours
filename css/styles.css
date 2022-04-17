@@ -17,10 +17,6 @@ body {
   box-sizing: content-box;
 }
 
-a {
-  text-decoration: none;
-}
-
 /*FOOTER*/
 .text-Foo {
   color: #004635;
@@ -38,7 +34,8 @@ a {
   border-radius: 40px;
   background: #00aeac;
   border: solid black 2px;
-  margin: 10px;
+  margin: 0 auto;
+  z-index: 1;
 }
 
 .container1 .heading {
@@ -125,6 +122,10 @@ input[type="reset"] {
   top: 10px;
 }
 
+i {
+  text-align: center;
+}
+
 /*imghome*/
 .imghome {
   width: 100%;
@@ -173,24 +174,22 @@ p {
 }
 
 /*About Us*/
-.abtUs {
-  padding: 20px;
+.row .imgAbtUs,
+.img-cork {
   width: 100%;
+  border-radius: 10%;
+  padding: 5%;
+  height: 100%;
 }
+
 .txtAbtUs {
-  padding: 20px;
+  padding: 10%;
   float: left;
 }
 
 /*Cork Page*/
 
-.img-cork {
-  width: 100%;
-  border-radius: 10%;
-  margin: 5px;
-}
-
-.maps {
+.row.maps {
   border-radius: 15%;
   padding: 15px;
 }
@@ -218,10 +217,15 @@ h3 {
 
 /* Dublin and Clare page*/
 
-#buttonD {
-  font-size: 30px;
-  padding: 1%;
-  margin-left: 70%;
-  background-color: #72cc51;
-  border-radius: 20px;
+.icon-list-group {
+  color: #72cc51;
+  display: inline-block;
+}
+
+.col .list-group {
+  margin: 25%;
+}
+
+.container-claretxt {
+  padding: 25px;
 }
