@@ -27,12 +27,14 @@
         margin-right:20px;
     }
     
+    /* size of div class */
     
     .container1 .booking-details .deatails-box{
         width: 250px;
         margin-bottom: 15px;
         }
         
+
     .booking-details .deatails-box .details{
         display: block; 
         font-weight:800;
@@ -40,6 +42,8 @@
         
     }
     
+    /* Input feild */
+
     .booking-details .deatails-box input{ 
      position:relative; 
      width:80%;
@@ -49,7 +53,8 @@
      height:20px;
     }
     
-    
+    /* input feild styling*/
+
     .booking-details .pax input{ 
     
      position:relative; 
@@ -72,7 +77,8 @@
     }
     
     
-    
+    /*Confirm booking button */
+
     input[type=Submit]{
     
     position:relative;
@@ -92,7 +98,7 @@
     
     }
     
-    
+       /*Cancel button */
     input[type=reset]{
     
     position:relative;
