@@ -121,8 +121,8 @@ input[type="reset"] {
   top: 10px;
 }
 
-i{ 
-text-align: center;
+i {
+  text-align: center;
 }
 
 /*imghome*/
@@ -173,7 +173,8 @@ p {
 }
 
 /*About Us*/
-.row .imgAbtUs {
+.row .imgAbtUs,
+.img-cork {
   width: 100%;
   border-radius: 10%;
   padding: 5%;
@@ -186,12 +187,6 @@ p {
 }
 
 /*Cork Page*/
-
-.img-cork {
-  width: 100%;
-  border-radius: 10%;
-  margin: 5px;
-}
 
 .row.maps {
   border-radius: 15%;
