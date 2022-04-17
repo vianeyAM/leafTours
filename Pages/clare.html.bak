@@ -1,0 +1,148 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Leaf Tours</title>
+    <!--Favicon-->
+    <link rel="icon" type="image/x-icon" href="../img/favicon.ico" />
+    <!--StyleSheet-->
+    <link rel="stylesheet" href="../css/styles.css" />
+
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet" />
+   
+   <!--Bootstrap-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"/>
+    <!--Fontawesome-->
+    <script
+      src="https://kit.fontawesome.com/73f4446eec.js"
+      crossorigin="anonymous"
+    ></script>
+    <!--JQuery CDN-->
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+  </head>
+
+  <body>
+    <!--Navigation Bar-->
+    <nav>
+      <div class="logo">
+        <a href="#" class="linklogo">
+          <img src="../img/logoLTnav.png" alt="leafTours" class="logo" />
+        </a>
+      </div>
+      <input type="checkbox" id="btn" />
+      <label for="check" class="checkbtn">
+        <i class="fas fa-bars"></i>
+      </label>
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../Pages/aboutUs.html">About Us</a></li>
+        <li>
+          <label for="btn1" class="show">Attractions +</label>
+          <a href="#"
+            >Attractions <i class="fa-solid fa-circle-chevron-down"></i
+          ></a>
+          <input type="checkbox" id="btn1" />
+          <ul>
+            <li><a href="../Pages/cork.html"></a>Cork</li>
+            <li><a href="../Pages/dublin.html"></a>Dublin</li>
+            <li><a href="#"></a>Clare</li>
+          </ul>
+        </li>
+        <li><a href="../Pages/contact.html">Contact</a></li>
+      </ul>
+    </nav>
+	  
+    <!--Style sheet for Clare page-->
+    	<link rel="stylesheet" href="../css/styles.css"/>
+    <!--Main Content-->
+    <h2>CLARE</h2>
+    <div class="containerCla-1">
+	</div>
+      
+        <section>
+	
+	<h2> Cliffs Of Moher </h2>
+	<div class="containerpic">
+		<img id="clarepic" src="../img/clare.jpg" alt="dublin" width="520" height="360"/>
+		</div>	 
+	 <div class ="containertx">
+	<p> Ever wondered about the beautiful breath-taking sceneries and pictures you have 
+	seen on websites and wallpapers? Well think again! Leaf tours offers an amazing road 
+	trip adventure to county Clare to visit the Cliffs of Moher, located at the edge of 
+	the Burren region the sea cliffs are a distance of about 14km and are as high as 214 meters.  
+	The cliffs take their name from an old promontory fort called Mothar or Moher. This site is famous and receives almost 
+	1 million visitors a year. The Cliffs of Moher Visitor Experience won an award in the 
+	Interpret Britain & Ireland Awards 2007 awarded by the Association of Heritage Interpretation (AHI). 
+	Be wowed with panoramic views from dramatic cliff edges. 
+	Walk along some of Ireland's most exhilarating coastal scenery. Grab a fireside seat at a traditional music session in the picturesque village of Doolin. Unmissable.
+The Cliffs of Moher have been long admired for their scenic beauty and is ancient folklore making it an 
+icon and a place for a visit at least once in your life. Leaf tours handle’s private bus and car hires to visit 
+this beautiful scenery with a personal tour guide that will journey with you along the cliffs to the best spots. 
+Slip on your hiking shoes and be prepared for an adventure with Leaf tours!
+  </p>
+  
+	<a href="../Pages/contact.html">
+	<div>
+	<button type="button" id="buttonD"> Book Now </input></a> 
+	</div>
+	</div>
+	
+	
+	<!--Maps,Hotels,Restaurants-->
+         <div class="row">
+        <div class="col">
+          <iframe class="maps"src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d38443.44548199315!2d-9.430882!3d52.971535!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x485b01af0bb881f3%3A0x283a469048b8c0e6!2sCliffs%20of%20Moher!5e0!3m2!1sen!2sus!4v1650123821216!5m2!1sen!2sus" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+			<a href="https://123movies-to.org"></a></br>
+			
+        </div>
+      </div>
+	  <iframe id="clarevideo" width="100%" height="415" src="https://www.youtube.com/embed/YZkw7GyfY3Q?start=38" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	
+	<div class="col">
+          <span class="icon-3">
+            <i class="fa-solid fa-utensils"></i>
+          </span>
+            <a href ="https://www.opentable.ie/lolz-view-all/H4sIAAAAAAAAAFXNzQrCMBBG0XcZt0lJJj9tsisYQZCqURcqIhEiFEILFXQhvrsDrlwN3DPwvQHBAwpELjSXdi-tR-mFAAbqTyhoCrL2SvzcgEcGlqLByiktrTaMu0qpujGGHhqiTYi7ddeulqcQr9tDiEcCRzBrn6kv6VbyYpzm_TDkqRtfhJJ2zxe6NHdP5ZE_X5gfbNmlAAAA?originid=b3f1432a-3816-4642-badb-df5037bccbb3"> <h3>Restaurants</h3>
+            </div>
+        <div class="col">
+          <span class="icon-3">
+            <i class="fa-solid fa-bed"></i>
+          </span>
+          <a href= "https://www.booking.com/region/ie/county-clare.html"><h3>Hotels</h3>
+       </div>
+	
+     	
+    <!--footer-->
+
+    <footer>
+      <div>
+        <div></div>
+        <div></div>
+      </div>
+      <div class="f-link">
+        Open Source Code:
+        <a class="text-light" href="https://github.com/vianeyAM/leafTours"
+          >Github <i class="fa-brands fa-github"></i>
+		  </a>
+      </div>
+    </footer>
+    <!--Jquery Scripts-->
+    <script>
+      $(".checkbtn").click(function () {
+        $("i").toggleClass("cancel");
+      });
+    </script>
+  </body>
+</html>

@@ -39,10 +39,12 @@
 
   <body>
     <!--Navigation Bar-->
-     <nav>
+    <nav>
       <div class="logo">
         <a href="#" class="linklogo">
-          <img src="../img/logoLTnav.png" alt="leafTours" class="logo" />
+
+          <img src="./img/logoLTnav.png" alt="leafTours" class="logo" />
+
         </a>
       </div>
       <input type="checkbox" id="btn" />
@@ -109,6 +111,7 @@
         
 	</div>
 	
+	
 	<h2> Samuel Beckett Bridge </h2>
 	
 	<div class ="containerpic">
@@ -160,14 +163,8 @@
       </div>
       <div class="f-link">
         Open Source Code:
-<<<<<<< HEAD
         <a class="text-light" href="https://github.com/vianeyAM/leafTours"> Github <i class="fa-brands fa-github"></i>
 			</a>
-=======
-        <a class="text-light" href="https://github.com/vianeyAM/leafTours"
-          >Github <i class="fa-brands fa-github"></i>
-		</a>
->>>>>>> c4ac813f63423d4868534d880294618941c73e3b
       </div>
     </footer>
 
