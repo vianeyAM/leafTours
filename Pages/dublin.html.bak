@@ -39,10 +39,12 @@
 
   <body>
     <!--Navigation Bar-->
-     <nav>
+    <nav>
       <div class="logo">
         <a href="#" class="linklogo">
-          <img src="../img/logoLTnav.png" alt="leafTours" class="logo" />
+
+          <img src="./img/logoLTnav.png" alt="leafTours" class="logo" />
+
         </a>
       </div>
       <input type="checkbox" id="btn" />
