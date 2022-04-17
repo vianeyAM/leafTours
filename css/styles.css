@@ -17,10 +17,6 @@ body {
   box-sizing: content-box;
 }
 
-a {
-  text-decoration: none;
-}
-
 /*FOOTER*/
 .text-Foo {
   color: #004635;
@@ -218,10 +214,15 @@ h3 {
 
 /* Dublin and Clare page*/
 
-#buttonD {
-  font-size: 30px;
-  padding: 1%;
-  margin-left: 70%;
-  background-color: #72cc51;
-  border-radius: 20px;
+.icon-list-group {
+  color: #72cc51;
+  display: inline-block;
+}
+
+.col .list-group {
+  margin: 25%;
+}
+
+.container-claretxt {
+  padding: 25px;
 }
