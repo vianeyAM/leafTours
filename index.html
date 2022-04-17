@@ -35,34 +35,36 @@
 
   <body>
     <!--Navigation Bar-->
-    <nav>
-      <div class="logo">
-        <a href="#" class="linklogo">
-          <img src="./img/logoLTnav.png" alt="leafTours" class="logo" />
-        </a>
-      </div>
-      <input type="checkbox" id="btn" />
-      <label for="check" class="checkbtn">
-        <i class="fas fa-bars"></i>
-      </label>
-      <ul>
-        <li><a href="./index.html">Home</a></li>
-        <li><a href="./Pages/aboutUs.html">About Us</a></li>
-        <li>
-          <label for="btn1" class="show">Attractions +</label>
-          <a href="#"
-            >Attractions <i class="fa-solid fa-circle-chevron-down"></i
-          ></a>
-          <input type="checkbox" id="btn1" />
-          <ul>
-            <li><a href="./Pages/cork.html"></a>Cork</li>
-            <li><a href="./Pages/dublin.html"></a>Dublin</li>
-            <li><a href="./Pages/clare.html"></a>Clare</li>
-          </ul>
-        </li>
-        <li><a href="./Pages/contact.html">Contact</a></li>
-      </ul>
-    </nav>
+    <header>
+      <nav>
+        <input type="text" type="checkbox" id="checkbox" />
+        <label for="checkbox" class="btnchk"
+          ><i class="fa-solid fa-bars" aria-hidden="true"></i
+        ></label>
+        <img src="./img/logoLTnav.png" alt="logo" />
+        <ul>
+          <div class="drop-down-menu">
+            <button class="drop-down-btn">Home</button>
+          </div>
+          <div class="drop-down-menu">
+            <button class="drop-down-btn">About Us</button>
+          </div>
+          <div class="drop-down-menu">
+            <button class="drop-down-btn">
+              Attractions<i class="fa-solid fa-arrow-down-from-dotted-line"></i>
+            </button>
+            <div class="drop-down-menu-content">
+              <a href="./Pages/clare.html">Clare</a>
+              <a href="./Pages/cork.html">Cork</a>
+              <a href="./Pages/dublin.html">Dublin</a>
+            </div>
+          </div>
+          <div class="drop-down-menu">
+            <button class="drop-down-btn">Contact</button>
+          </div>
+        </ul>
+      </nav>
+    </header>
     <!--Content-->
     <img src="./img/background.jpg" alt="ireland" class="imghome" />
     <h1>Explore Ireland</h1>
