@@ -303,17 +303,17 @@ p {
 
 .img-cork {
   width: 100%;
-  border-radius: 15%;
-  margin: 10px;
+  border-radius: 10%;
+  margin: 5px;
 }
 
 .maps {
   border-radius: 15%;
-  padding: 25px;
+  padding: 15px;
 }
 
 .txt-cork {
-  padding: 25px;
+  padding: 15px;
 }
 
 .icon-3 {
@@ -336,43 +336,9 @@ h3 {
 /* Dublin and Clare page*/
 
 #buttonD {
-  font-size: 20px;
+  font-size: 30px;
   padding: 1%;
-  margin-left: 45%;
-
+  margin-left: 70%;
+  background-color:#72cc51;
   border-radius: 20px;
-}
-
-.containertx1 {
-  float: left;
-  background: #72cc51;
-  width: 58%;
-  height: 420px;
-  margin-left: 2%;
-}
-.containerpic1 {
-  float: right;
-  background: #00aeac;
-  width: 38%;
-  height: 420px;
-  padding: 2%;
-  margin-right: 2%;
-}
-.containerpic {
-  float: left;
-  background: #00aeac;
-  width: 38%;
-  height: 420px;
-  padding: 2%;
-  margin-left: 2%;
-}
-.containertx {
-  float: right;
-  background: #72cc51;
-  width: 58%;
-  height: 420px;
-  margin-right: 2%;
-}
-#clarepic {
-  margin-left: 2%;
 }
