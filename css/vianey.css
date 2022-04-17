@@ -1,0 +1,82 @@
+.container1 {
+  font-family: "poppins", sans-serif;
+  background-color: hsla(154, 100%, 32%, 0.525);
+  font-size: 0.8em;
+  color: aliceblue;
+  width: 100%;
+  border-radius: 40px;
+  margin: 0 auto;
+  box-shadow: 16px 4px #00000055;
+  max-width: 70%;
+  z-index: 1;
+  text-align: center;
+}
+
+.heading {
+  color: #004635;
+}
+
+div .heading {
+  font-size: 2em;
+  position: absolute;
+  text-align: center;
+  padding: 2em;
+  color: fff;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  padding: 1rem;
+}
+
+div.heading {
+  padding: 0 2rem;
+}
+
+.booking-details,
+.details-box {
+  margin: 0 auto;
+  text-align: center;
+}
+
+input[type="Submit"],
+input[type="reset"] {
+  position: relative;
+  padding: 10px;
+  font-size: 12px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  background-color: #019875;
+  color: white;
+  border: none;
+  border-radius: 18px;
+  top: 10px;
+}
+
+input[type="Submit"]:hover,
+input[type="reset"]:hover {
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.752);
+  cursor: pointer;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="tel"],
+input[type="date"],
+input[type="time"],
+select {
+  background-color: #01987589;
+  color: rgb(231, 245, 202);
+  border-radius: 10px;
+  border: none;
+  border-bottom: 0.5px solid#019875;
+}
+
+.fa-cc-visa,
+.fa-cc-mastercard,
+.fa-cc-apple-pay {
+  font-size: 2rem;
+  color: #004635;
+}
